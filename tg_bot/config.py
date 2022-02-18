@@ -7,7 +7,7 @@ class Config(object):
     OWNER_USERNAME = "NiupunDinujaya"
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = 'postgress://username:pw@hostname:port/db_name'  # needed for any database modules
+    SQLALCHEMY_DATABASE_URI = 'mongodb+srv://lasindubot:lasindubot@cluster0.0htcg.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'  # needed for any database modules
     MESSAGE_DUMP = None  # needed to make sure 'save from' messages persist
     LOAD = []
     NO_LOAD = ['translation', 'rss']
